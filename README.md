@@ -1,8 +1,8 @@
-<h1 align="centre">𝐑𝐀𝐕𝐀𝐍 music 🎵</h1>
+<h1 align="centre">Iron Music 🎵</h1>
 
 ### A bot that can play music on telegram group's voice call
 
-# Available on telegram as @ravan_musicbot
+# Available on telegram as @Mr_IronManbot
 
 <p><h2> Whats new 🔥 </h2></p>
 
@@ -48,6 +48,7 @@
 Use [@StringSessionGeneratorRobot](https://t.me/StringSessionGeneratorRobot) to get pyrogram string session
 
 ### Credits
+- [Itznik](https://github.com/itznik): main dev
 - [InukaASiTH](https://github.com/InukaAsith): Dev
 - [Wrench](https://github.com/EverythingSuckz/): Dev
 - [QueenArzoo](https://github.com/QueenArzoo): Dev
