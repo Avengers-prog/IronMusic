@@ -1,4 +1,4 @@
-# 𝙍𝘼𝙑𝘼𝙉xmusic (Telegram bot project )
+# 𝙍𝘼𝙑𝘼𝙉music (Telegram bot project )
 # Copyright (C) 2021  Inukaasith 
 
 # This program is free software: you can redistribute it and/or modify
@@ -27,19 +27,19 @@ from config import BOT_NAME as bn
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""Hello 👋 there! I can play music in voice chats of Telegeam Groups. I have a lot of cool feature that will amaze you!\n\n🔴 Do you want me to play music in your Telegram groups'voice chats? Please click the \'📜 User Manual 📜\' button below to know how you can use me.\n\n🔴 The Assistant must be in your group to play music in the voice chat of your group.\n\n🔴 More info & commands mentioned in the [User Manual](https://telegra.ph/%F0%9D%99%8D%F0%9D%98%BC%F0%9D%99%91%F0%9D%98%BC%F0%9D%99%89-%F0%9D%99%88%F0%9D%99%90%F0%9D%99%8E%F0%9D%99%84%F0%9D%98%BE-04-21)\n\nA project by @itznik_x""",
+        f"""Hello 👋 there! I can play music in voice chats of Telegeam Groups. I have a lot of cool feature that will amaze you!\n\n🔴 Do you want me to play music in your Telegram groups'voice chats? Please click the \'📜 User Manual 📜\' button below to know how you can use me.\n\n🔴 The Assistant must be in your group to play music in the voice chat of your group.\n\n🔴 More info & commands mentioned in the [User Manual](https://telegra.ph/IʀᴏɴMᴜsɪᴄ-05-31)\n\nA project by @I_AM_DIK""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "📜 User Manual 📜", url="https://telegra.ph/%F0%9D%99%8D%F0%9D%98%BC%F0%9D%99%91%F0%9D%98%BC%F0%9D%99%89-%F0%9D%99%88%F0%9D%99%90%F0%9D%99%8E%F0%9D%99%84%F0%9D%98%BE-04-21")
+                        "📜 User Manual 📜", url="https://telegra.ph/IʀᴏɴMᴜsɪᴄ-05-31")
                   ],[
                     InlineKeyboardButton(
-                        "👨‍💻 Updates 👨‍💻", url="https://t.me/itznik_x"
+                        "👨‍💻 Updates 👨‍💻", url="https://t.me/Ironman_updates"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "Support Chat 🎙️", url="https://t.me/itznik_x"
+                        "Support Chat 🎙️", url="https://t.me/Iron_support"
                     )]
             ]
         ),
@@ -53,7 +53,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🎙️ Support Group 🎙️", url="https://t.me/itznik_x")
+                        "🎙️ Support Group 🎙️", url="https://t.me/Iron_support")
                 ]
             ]
         )
